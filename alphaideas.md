@@ -31,19 +31,19 @@ Robinhood - Tracking Stock Price
 URL - https://robinhood.com/stocks/FB
 
 Triggers 
-- Hover mouse over stock curve and move left / right 
+- Hover mouse over line chart and move left / right 
 
 Rules 
-- Stock curve will change from green to red based on daily value
+- Line chart will change from green to red based on daily value
 - Time and price will change based on hover movement
 
 Feedback
 - Price will seamlessly change based on where hover is 
-- Curve / curve color will change based on selected d / mm / yy
+- Chart / chart color will change based on selected d / mm / yy
 - Details about company / stock located in "About" section below main graphic
 - Related Lists based on selected company / stock
 
 Loops & Modes 
 - No loops
-- Curve / curve color will change based on selected d / mm / yy
-Price will change based on where hover is over stock curve
+- Chart / chart color will change based on selected d / mm / yy
+- Price will change based on where hover is over stock curve
