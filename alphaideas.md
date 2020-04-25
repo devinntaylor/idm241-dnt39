@@ -47,3 +47,28 @@ Loops & Modes
 - No loops
 - Chart / chart color will change based on selected d / mm / yy
 - Price will change based on where hover is over stock curve
+
+-----
+
+Medium Clapping Hands
+---
+
+URL - https://uxdesign.cc/part-2-designing-ai-with-internal-stakeholders-8c8dba521472
+
+Triggers
+- "Click" within clapping hands circle
+
+Rules
+- Button will "bounce"
+- Clapping hands fill with gray color
+- Confetti will project from circle 
+
+Feedback
+- User will see button animation 
+	• Bounce
+	• Confetti 
+	• Number of claps 
+
+Loops & Modes
+- No loop / differing modes
+- Able to be repeated 50 times
