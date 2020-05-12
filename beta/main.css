@@ -5,16 +5,20 @@ body {
     min-height: 100vh;
 }
 
+
 /*========================
     BASIC styles
   =======================*/
+
 * {
     box-sizing: border-box;
 }
 
+
 /*========================
     BUTTON styles
   =======================*/
+
 .clap {
     position: relative;
     outline: 1px solid transparent;
@@ -25,10 +29,7 @@ body {
     background: none;
 }
 
-
-
 .clap:after {
-    /*THIS IS WHERE ERROR OCCURS*/
     content: "";
     position: absolute;
     top: 0;
@@ -82,9 +83,11 @@ body {
     color: #bdc3c7;
 }
 
+
 /*====================
         Message
 ======================*/
+
 #message {
     position: absolute;
     bottom: 20px;
@@ -92,10 +95,6 @@ body {
     line-height: 1.52rem;
     padding: 1rem;
     font-size: 0.9rem;
-}
-
-#message a {
-    color: #bdc3c7;
 }
 
 @keyframes shockwave {
