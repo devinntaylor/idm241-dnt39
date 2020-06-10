@@ -2,7 +2,7 @@
  const clapIcon = document.getElementById('clap--icon');
  const clapCount = document.getElementById('clap--count');
  const clapTotalCount = document.getElementById('clap--count-total')
- const initialNumberOfClaps = generateRandomNumber(0, 1000);
+ const initialNumberOfClaps = 0;
  const btnDimension = 80;
  const tlDuration = 300;
  let numberOfClaps = 0;
@@ -17,11 +17,11 @@
      children: {
          shape: 'polygon',
          radius: {
-             6: 0
+             3: 0
          },
          scale: 1,
-         stroke: 'rgba(255, 222, 165',
-         strokeWidth: 2,
+         stroke: 'rgb(152, 255, 152)',
+         strokeWidth: 3,
          angle: 210,
          delay: 30,
          speed: 0.2,
@@ -38,13 +38,13 @@
      duration: tlDuration,
      children: {
          shape: 'circle',
-         fill: 'rgba(		255, 159, 155',
+         fill: 'rgb(84,255,251)',
          delay: 30,
          speed: 0.2,
          radius: {
              3: 0
          },
-         easing: mojs.easing.bezier(0.1, 2, 0.3, 1)
+         easing: mojs.easing.bezier(0.1, 1, 0.3, 1)
      }
  });
  const countAnimation = new mojs.Html({
@@ -93,7 +93,7 @@
  triangleBurst
  , circleBurst
 , countAnimation
- , countTotalAnimation
+, countTotalAnimation
 , scaleButton]);
  clap.addEventListener('click', function () {
      repeatClapping();

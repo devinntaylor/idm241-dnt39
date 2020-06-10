@@ -34,7 +34,7 @@
 
 .clap:hover {
     cursor: pointer;
-    border: 1px solid deeppink;
+    border: 1px solid #e7b2ff;
     transition: border-color 0.3s ease-in;
 }
 
@@ -45,12 +45,12 @@
 .clap svg {
     width: 40px;
     fill: none;
-    stroke: deeppink;
+    stroke: #e7b2ff;
     stroke-width: 2px;
 }
 
 .clap svg.checked {
-    fill: deeppink;
+    fill: #e7b2ff;
     stroke: #fff;
     stroke-width: 1px;
 }
@@ -61,7 +61,7 @@
     left: 20px;
     font-size: 0.8rem;
     color: white;
-    background: deeppink;
+    background: #e7b2ff;
     border-radius: 50%;
     height: 40px;
     width: 40px;
@@ -83,6 +83,8 @@
         Message
 ======================*/
 
+
+/*
 #message {
     position: absolute;
     bottom: 20px;
@@ -91,26 +93,31 @@
     padding: 1rem;
     font-size: 0.9rem;
 }
+*/
 
+
+/*
 #message a {
     color: #bdc3c7;
 }
+*/
 
 @keyframes shockwave {
     0% {
         transform: scale(1);
-        box-shadow: 0 0 2px deeppink;
-        opacity: 1;
+        box-shadow: 0 0 2px #e7b2ff;
+        opacity: 1.5;
     }
 
     100% {
         transform: scale(1);
         opacity: 0;
-        box-shadow: 0 0 50px deeppink, inset 0 0 10px deeppink;
+        box-shadow: 0 0 50px #e7b2ff, inset 0 0 10px #e7b2ff;
     }
 }
 
 h1 {
+    padding-top: 1rem;
     color: black;
     font-family: 'Noe Display Bold', serif;
     font-size: 50px;
@@ -144,7 +151,7 @@ li {
 }
 
 b {
-    color: deeppink;
+    color: #e7b2ff;
 }
 
 img {
